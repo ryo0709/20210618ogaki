@@ -1,0 +1,53 @@
+.plactice-problem {
+  max-width: 1300px;
+}
+header {
+  height: 140px;
+  display: flex;
+  padding: 33px 20px;
+  color: #00008B;
+}
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+header ul {
+  display: flex;
+  margin: 0 0 0 auto;
+  margin-right: 10px;
+}
+header li {
+  margin-left: 20px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+.main__content-ttl {
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  top: 70%;
+}
+.main__content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 950px;
+  height: 180px;
+  background-color: #00008B;
+  margin-top: 280px;
+  margin-bottom: 40px;
+}
+.main__img {
+  position: absolute;
+  width: 67%;
+  top: -330px;
+  right: -310px;
+}
+img {
+  width: 100%;
+}
